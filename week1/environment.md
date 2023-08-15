@@ -1,5 +1,6 @@
 # Node.js
 ![](./images/Node.js.png)
+
 [Node.js는 확장성 있는 네트워크 애플리케이션(특히 서버 사이드) 개발에 사용되는 소프트웨어 플랫폼](https://ko.wikipedia.org/wiki/Node.js)이다. 작성 언어로 [자바스크립트](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)를 활용하며 논블로킹(Non-blocking) I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
 
 내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도의 소프트웨어 없이 동작하는 것이 가능하며 이를 통해 웹 서버의 동작에 있어 더 많은 통제를 가능케 한다.
@@ -28,6 +29,7 @@ Node.js의 버전별 출시 및 관리는 규칙적인 주기를 가지고 이�
 
 # NPM(Node Package Manager)
 ![](./images/npm.png)
+
 **npm**(노드 패키지 매니저/Node Package Manager)은 [자바스크립트](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8) 프로그래밍 언어를 위한 [패키지 관리자](https://ko.wikipedia.org/wiki/%ED%8C%A8%ED%82%A4%EC%A7%80_%EA%B4%80%EB%A6%AC%EC%9E%90)이다. 자바스크립트 런타임 환경 [Node.js](https://ko.wikipedia.org/wiki/Node.js)의 기본 패키지 관리자이다. 명령 줄 클라이언트(npm), 그리고 공개 패키지와 지불 방식의 개인 패키지의 [온라인 데이터베이스](https://ko.wikipedia.org/w/index.php?title=%EC%98%A8%EB%9D%BC%EC%9D%B8_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4&action=edit&redlink=1)(npm 레지스트리)로 이루어져 있다. 이 레지스트리는 클라이언트를 통해 접근되며 사용 가능한 패키지들은 npm 웹사이트를 통해 찾아보고 검색할 수 있다. 패키지 관리자와 레지스트리는 npm사에 의해 관리된다.
 
 ## **[About npm Company](https://www.npmjs.com/)**
@@ -55,6 +57,7 @@ npm은 개발자가 이러한 코드 패키지를 쉽게 찾고 사용할 수 �
 ## package.json / package-lock.json
 ## [package.json이란?](https://docs.npmjs.com/cli/v9/configuring-npm/package-json)
 ![](./images/package.json.png)
+
 소프트웨어가 작동하는 데 필요한 모든 코드(패키지)를 나열하는 프로젝트의 특수 파일이다. 프로젝트가 의존하는 코드 패키지의 이름과 버전이 나열된다. 
 
 ## [package-lock.json이란?](https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json)
@@ -95,7 +98,7 @@ package-lock.json의 모든 모듈의 버전은 `npm install` 을 수행하는 �
 ⇒ node_modules는 실제 코드 패키지(종속성)가 저장되는 곳이다. package.json 파일을 기반으로 자동 생성되며 프로젝트에서 사용하는 도구를 포함한다.
 
 ## npx
-## ****[npm과 npx의 차이에 대해서](https://ljh86029926.gitbook.io/coding-apple-react/undefined/npm-npx) - 글로벌 모듈을 설치하지 않기 위한 몸부림**
+## **[npm과 npx의 차이에 대해서](https://ljh86029926.gitbook.io/coding-apple-react/undefined/npm-npx) - 글로벌 모듈을 설치하지 않기 위한 몸부림**
 
 ### 글로벌 모듈은 혼란스럽다.
 
@@ -134,6 +137,7 @@ create-react-app같은 보일러 플레이트 모듈에 효과적이다. npx를 
 
 # ES Modules vs CommonJS
 ![](./images/module.png)
+
 함수들끼리 데이터를 공유하고 싶다면 어떻게 해야할까? 전역 scope에 해당 데이털르 둔다면 다른 내부 요소에 의해 망가질 수도 있고, 순서가 뒤엉켜 전역 scope의 요소가 존재하지 않을 수도 있다. 
 
 따라서 모듈이라는 방식을 이용하면 각각 필요한 모듈을 import하여 사용함으로써 어디에서 에러가 나는지 파악하기 쉽다. 모듈을 만들고 import, export 하는 시스템을 모듈 시스템이라 하는데 현재 2가지의 모듈 시스템이 활발하게 사용되고 있다. 
