@@ -59,3 +59,8 @@ Virtual DOM은 React와 같은 프레임워크에서 실제 DOM과의 직접적�
 ## Reconciliation(재조정) 과정은 무엇인가?
 
 UI의 이상적인 또는 "가상"적인 표현을 메모리에 저장하고 ReactDOM과 같은 라이브러리에 의해 "실제" DOM과 동기화하는 과정
+
+## +) DOM 추가 학습
+
+[모던 JavaScript 튜토리얼](https://ko.javascript.info/
+)
