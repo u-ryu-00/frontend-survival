@@ -128,9 +128,14 @@ JSON(제이슨, JavaScript Object Notation)은 속성-값 쌍(attribute-value pa
 
 ## 1급 객체 / 1급 함수 (first-class object)란?
 
-다른 변수처럼 다루어지는 함수
+변수처럼 다루어지는 함수
 
 1급 함수는 다른 함수들에 전달 인자로 제공되고, 다른 함수에 의해 반환될 수 있으며, 변수에 값으로서 할당될 수 있다.
+
+### Inverse Data Flow
+
+하위 컴포넌트의 props로 함수를 전달. 흔히 콜백 함수라고 부른다.
+TypeScript(정확히는 JavaScript)는 함수가 일급(first-class)객체다. 즉, 어떤 함수를 다른 함수에 인자로 넘겨주거나, 어떤 함수를 리턴값으로 사용할 수 있다.
 
 ## Lifting State Up
 
