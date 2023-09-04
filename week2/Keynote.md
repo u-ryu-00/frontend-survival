@@ -62,5 +62,4 @@ UI의 이상적인 또는 "가상"적인 표현을 메모리에 저장하고 Rea
 
 ## +) DOM 추가 학습
 
-[모던 JavaScript 튜토리얼](https://ko.javascript.info/
-)
+[모던 JavaScript 튜토리얼](https://ko.javascript.info/)

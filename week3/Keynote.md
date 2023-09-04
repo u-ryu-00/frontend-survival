@@ -142,3 +142,7 @@ TypeScript(정확히는 JavaScript)는 함수가 일급(first-class)객체다. �
 State 끌어올리기
 
 종종 동일한 데이터에 대한 변경사항을 여러 컴포넌트에 반영해야 할 필요가 있다. 이럴 때는 가장 가까운 공통 조상으로 state를 끌어올리는 것이 좋다.
+
+## +) REST API 추가 학습
+
+[REST API](https://noahlogs.tistory.com/49)
