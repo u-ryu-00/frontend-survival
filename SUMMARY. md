@@ -21,6 +21,7 @@
   - [Keynote](week3/Keynote.md)
 
 - [4주차](week4/README.md)
+  - [0. 간단한 서버 앱 npm 패키지 세팅](week4/0.setting.md)
   - [1. Express](week4/1.express.md)
   - [2. Fetch API & CORS](week4/2.fetchAPI&CORS.md)
   - [3. React의 Hook](week4/3.reactHook.md)
