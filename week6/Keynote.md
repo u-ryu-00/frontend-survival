@@ -1,27 +1,27 @@
 # Keynote
 
-## 관심사의 분리
+## 💡 관심사의 분리
 
-## Layered Architecture
+## 💡 Layered Architecture
 
-## Flux Architecture
+## 💡 Flux Architecture
 
-## useReducer
+## 💡 useReducer
 
-## useCallback
+## 💡 useCallback
 
-## TSyringe
+## 💡 TSyringe
 
-## 의존성 주입(Dependency Injection)
+## 💡 의존성 주입(Dependency Injection)
 
-## reflect-metadata
+## 💡 reflect-metadata
 
-## singleton (싱글톤)
+## 💡 singleton (싱글톤)
 
-## Redux
+## 💡 Redux
 
-## Reflect
+## 💡 Reflect
 
-## usesotre-ts
+## 💡 usesotre-ts
 
-## useSyncExternalStore
+## 💡 useSyncExternalStore
