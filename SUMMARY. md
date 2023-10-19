@@ -44,10 +44,10 @@
   - [Keynote](week6/Keynote.md)
 
 - [7주차](week7/README.md)
-  - [1. External Store](week7/1.ExternalStore.md)
-  - [2. TSyringe](week7/2.TSyringe.md)
-  - [3. Redux 따라하기](week7/3.Redux따라하기.md)
-  - [4. usestore-ts](week7/4.usestore-ts.md)
+  - [1. Routing](week7/1.Routing.md)
+  - [2. Routes](week7/2.Routes.md)
+  - [3. Router](week7/3.Router.md)
+  - [4. Navigation](week7/4.Navigation.md)
   - [Keynote](week7/Keynote.md)  
 
 - [8주차](week8/README.md)
