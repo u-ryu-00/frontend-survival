@@ -38,6 +38,7 @@
   - [Keynote](week5/Keynote.md)
 
 - [6주차](week6/README.md)
+  - [0. 세팅 및 설치](week6/0.세팅및설치.md)
   - [1. External Store](week6/1.ExternalStore.md)
   - [2. TSyringe](week6/2.TSyringe.md)
   - [3. Redux 따라하기](week6/3.Redux따라하기.md)
