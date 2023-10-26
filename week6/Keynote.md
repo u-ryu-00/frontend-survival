@@ -23,7 +23,7 @@ component에 reducer를 추가할 수 있는 React Hook
 
 ## 💡 TSyringe
 
-생성자 주입을 위한 타입스크립트/자바스크립트용 경량 의존성 주입 컨테이너
+타입스크립트 / 자바스크립트를 위한 가벼운 의존성 주입 컨테이너
 
 ## 💡 의존성 주입(Dependency Injection)
 

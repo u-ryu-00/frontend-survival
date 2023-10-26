@@ -30,6 +30,7 @@
   - [Keynote](week4/Keynote.md)
 
 - [5주차](week5/README.md)
+  - [0. 세팅 및 설치](week5/0.세팅및설치.md)
   - [1. TDD](week5/1.TDD.md)
   - [2. React Testing Library](week5/2.ReactTestingLibrary.md)
   - [3. MSW](week5/3.MSW.md)
